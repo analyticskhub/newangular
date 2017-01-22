@@ -4,10 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './commons/header/header.component';
+import { SidebarComponent } from './commons/sidebar/sidebar.component';
+import { FooterComponent } from './commons/footer/footer.component';
+import { ContentComponent } from './commons/content/content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    SidebarComponent,
+    FooterComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
